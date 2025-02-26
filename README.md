@@ -6,6 +6,7 @@ We have a more complete [Getting Started Guide](https://docs.yjs.dev/getting-sta
 
 * 3D model collaboration using the [Vertex Viewer](https://developer.vertexvis.com/). [Open Demo Site](https://collaboration.vertexvis.io/).
 * Shared Editing using the [ProseMirror](http://prosemirror.net/) editor - [Open Directory](./prosemirror/)
+* Shared Editing using the [@nytimes/react-prosemirror](https://github.com/nytimes/react-prosemirror/) - [Open Directory](./react-prosemirror/)
 * Shared Editing using the [ProseMirror](http://prosemirror.net/) editor with
   versioning support - [Open Directory](./prosemirror-versions/)
 * Shared Editing using the [Quill](https://quilljs.com/) editor - [Open Directory](./quill/)
@@ -23,6 +24,7 @@ use one of the demo directories that interests you the most.
 
 ```sh
 git clone https://github.com/yjs/yjs-demos.git
+npm install
 cd yjs-demos/${demo-directory}
 npm install
 npm start
